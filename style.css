@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-family: 'Vazirmatn', sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #f1f1f1;
+  line-height: 1.8;
+}
+
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  color: white;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+}
+
+.hero h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.content {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem 1rem;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+  backdrop-filter: blur(6px);
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+}
+
+.card h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: linear-gradient(90deg, #00f2fe, #4facfe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.1);
+  padding: 6px;
+}
+
+ul {
+  padding-right: 1.2rem;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* بخش تبلیغ */
+.promo {
+  text-align: center;
+  background: linear-gradient(135deg, #ffd700, #ff9900);
+  color: #111;
+  text-shadow: none;
+  border: 2px solid #fff5;
+  padding: 1.5rem;
+}
+
+.promo-title {
+  font-size: 1.5rem;
+  color: #001f4d; /* سرمه‌ای */
+  text-shadow: 
+    -2px -2px 0 #000,  
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000,
+    -2px  0   0 #000,
+     2px  0   0 #000,
+     0   -2px 0 #000,
+     0    2px 0 #000; /* حاشیه ضخیم مشکی */
+  margin-bottom: 0.5rem;
+}
+
+
+
+
+.promo p {
+  margin: 0.5rem 0;
+}
+
+.promo-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  background: #0088cc;
+  color: #fff;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.promo-btn:hover {
+  background: #006fa1;
+  transform: scale(1.05);
+}
+
+/* فوتر */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background: rgba(0,0,0,0.3);
+  margin-top: 2rem;
+}
+
+.footer a {
+  color: #00f2fe;
+  text-decoration: none;
+}
+
+/* دکمه تلگرام شناور */
+.telegram-float {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background: #0088cc;
+  color: #fff;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+.telegram-float:hover {
+  background: #006fa1;
+  transform: scale(1.1);
+}
+.promo h2 {
+  font-size: 1.5rem;
+  color: #001233; /* سرمه‌ای تیره */
+  text-shadow: none;
+  background: none !important;
+  -webkit-background-clip: initial !important;
+  -webkit-text-fill-color: initial !important;
+}
